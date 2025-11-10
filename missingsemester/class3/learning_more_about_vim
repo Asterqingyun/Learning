@@ -1,0 +1,19 @@
+1. d+e/w/$ show delete
+2.<number>+w/e show how much motion
+3.d/c <number> <motion>
+4.U undo the line
+5.<number> dd delete some lines
+6.cut and paste: after d then p
+7. replace:r replace mode:R
+8. % to the according ([{
+9./ back search % forward search
+10.:%s/old/new/g replace all the old ones to the new ones
+   :2,3s/old/new/g 
+11.:!<external command>
+12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file12.:w <name> save the file
+13. v select and then :w TEST sace the part
+14. :r <filename/!command>  retrieve the things 
+15. a is use to write after that
+16. :set ic can ignore the upper or small case
+17.^D can show the list,tab can fill the blank
+18.word is alphabet.number/_,and it is separated by several items like -;WORD can only be seperated by blank;so e E b B 
