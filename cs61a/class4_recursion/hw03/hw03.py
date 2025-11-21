@@ -176,10 +176,10 @@ def count_dollars_upward(total):
     "*** YOUR CODE HERE ***"
     def partition(num,low):
         if low==100:
-            if num<100:
-               return 0
-            else:
+            if num%100==0:
                return 1
+            else:
+               return 0
         if num==0:
             return 1 
         if num<0:
@@ -188,6 +188,7 @@ def count_dollars_upward(total):
         withoutlow=partition(num,next_larger_dollar(low))
         return withlow+withoutlow
     return partition(total,1)
+
     
 
 
@@ -239,5 +240,19 @@ def make_anonymous_factorial():
     ...     ['Assign', 'AnnAssign', 'AugAssign', 'NamedExpr', 'FunctionDef', 'Recursion'])
     True
     """
-    return 'YOUR_EXPRESSION_HERE'
-
+    return lambda x:if x==1:return 1 else: return 
+ def knapsack(weights, values, c):
+    """
+    >>> w = [2, 6, 3, 3]
+    >>> v = [1, 5, 3, 3]
+    >>> knapsack(w, v, 6)
+    6
+    """
+    "*** YOUR CODE HERE ***"
+    i=0
+    n=len(w)
+    l=[,]
+    while(i<n):
+       l[i]=v[i]/v[i]
+       i+=1
+    
